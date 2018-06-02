@@ -28,8 +28,8 @@
 
 (define-draw-in-interactor-command (com-draw-rectangle :name t) ()
   (let ((stream (frame-standard-input *application-frame*)))
-    ;; In order to make the rectangle appear in the flow of comands
-    ;; and comands outputs of an interactor, it can be drawn in a
+    ;; In order to make the rectangle appear in the flow of commands
+    ;; and commands outputs of an interactor, it can be drawn in a
     ;; formatting table.
     (formatting-table (stream :x-spacing 2 :y-spacing 2)
       (formatting-row (stream)

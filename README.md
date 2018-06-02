@@ -1,4 +1,4 @@
-# Clim-tests
+# Clim Howtos
 Some McClim tests while learning 
 
 1. How to print using bold font: `test-bold.lisp`
